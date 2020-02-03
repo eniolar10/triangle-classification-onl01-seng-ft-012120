@@ -1,7 +1,6 @@
 class Triangle
   # write code here
 
-    
  def initialize(s1, s2, s3)
 
   
@@ -35,8 +34,8 @@ class Triangle
 end
 
 
-
 class TriangleError < StandardError
   def message
     "This is not a valid triangle."
   end
+end
